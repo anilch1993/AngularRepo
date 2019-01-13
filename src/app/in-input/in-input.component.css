@@ -13,3 +13,17 @@ input:focus::-webkit-input-placeholder {
     bottom:10px; 
     transition: 0.2s ease-out;
 }
+:-ms-input-placeholder { /* IE10–11 */
+    font-size: .75em;
+    position: relative;
+    bottom:5px; 
+    transition: 0.2s ease-out;
+}
+
+::-ms-input-placeholder { /* Edge */
+    font-size: .75em;
+    position: relative;
+    bottom:5px; 
+    transition: 0.2s ease-out;
+}
+
