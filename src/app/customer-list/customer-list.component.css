@@ -1,0 +1,31 @@
+
+div.pos{
+    position: relative;
+}
+.del-icon{
+    position: absolute;
+    right:10px;
+    display: inline-block;
+    border:lightcoral;
+    background:blue;
+    color:white;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+.del-icon:hover{
+    background: red;
+}
+.del-icon span{
+    font-size: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 30%;
+    transition:2s ease-in font-size;
+}
+.del-icon span:hover{
+    position: absolute;
+    cursor: pointer;
+    background-color:white;
+    color:blue;
+}
