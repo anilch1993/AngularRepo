@@ -4,6 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { RotateModule } from '@app/rot';
+import { InInputModule } from '@my-Input';
+
 
 @NgModule({
   declarations: [
@@ -12,6 +14,7 @@ import { RotateModule } from '@app/rot';
   imports: [
     BrowserModule,
     RotateModule,
+    InInputModule,
     FormsModule
   ],
   providers: [],

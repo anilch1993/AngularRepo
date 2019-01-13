@@ -3,8 +3,12 @@ import { RotatorComponent } from "./rotator.component";
 import { CommonModule } from "@angular/common";
 
 @NgModule({
-    declarations:[RotatorComponent],
-    imports:[CommonModule],
+    declarations:[
+        RotatorComponent
+    ],
+    imports:[
+        CommonModule
+    ],
     exports: [
         RotatorComponent
     ]

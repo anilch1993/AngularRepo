@@ -1,0 +1,15 @@
+#Name{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid blue;
+    width: 300px;
+    padding: 2px;
+    font-size: 12px;
+    font-family: fantasy;
+}
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    bottom:10px; 
+    transition: 0.2s ease-out;
+}

@@ -3,7 +3,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@app/rot": ["src/app/rotator/rotator.module"]
+      "@app/rot": ["src/app/rotator/rotator.module"],
+      "@my-Input":["src/app/in-input/in-input.module"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
