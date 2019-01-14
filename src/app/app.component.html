@@ -1,6 +1,6 @@
 <app-rotator [showRotator]="rotatorFlag"></app-rotator>
 <div class="container">
-    <app-customer></app-customer>
+    <app-customer (rotatorFlag)="getRotatorFlag($event)"></app-customer>
 </div>
 
 

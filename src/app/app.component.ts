@@ -9,8 +9,8 @@ export class AppComponent {
   title = 'myNewProject';
   rotatorFlag = false;
   color = 'green';
-  rotatorActive(){
-    this.rotatorFlag = true;
+  getRotatorFlag(evt){
+    this.rotatorFlag = evt;
     setTimeout(()=>{
       this.rotatorFlag = false;
     },5000)

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { CustomerService } from '../shared/customer.service';
 
 @Component({
@@ -9,6 +9,9 @@ import { CustomerService } from '../shared/customer.service';
 export class CustomerComponent implements OnInit {
   submitted = false;
   showSuccessMessagge:boolean;
+
+  @Output() rotatorFlag = new EventEmitter<boolean>();
+
   constructor(private customerSevice:CustomerService) { }
   
   formControls = this.customerSevice.form.controls;
@@ -26,6 +29,7 @@ export class CustomerComponent implements OnInit {
         this.submitted = false;
       }
       console.log(this.customerSevice.form.value);
+      this.rotatorFlag.emit(true);
     }
 }
 

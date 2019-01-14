@@ -18,7 +18,7 @@ export class CustomerService {
   });
 
   getCustomers(){
-   return this.http.get("https://curddatabase.firebaseio.com/customer/-LW7GZalzxiEUo6swgfq.json");
+   return this.http.get("https://curddatabase.firebaseio.com/customer/-LW9bpNCgiscttFApLbU.json");
   }
 
   insertCustomers(customers){
